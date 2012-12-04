@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F19736A166DE36A00E27A5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F197369166DE36A00E27A5B /* UIKit.framework */; };
+		5F19736C166DE36A00E27A5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F19736B166DE36A00E27A5B /* Foundation.framework */; };
+		5F19736E166DE36A00E27A5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F19736D166DE36A00E27A5B /* CoreGraphics.framework */; };
+		5F197374166DE36A00E27A5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5F197372166DE36A00E27A5B /* InfoPlist.strings */; };
+		5F197376166DE36A00E27A5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F197375166DE36A00E27A5B /* main.m */; };
+		5F19737A166DE36A00E27A5B /* CBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F197379166DE36A00E27A5B /* CBAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F197365166DE36A00E27A5B /* CoolBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F197369166DE36A00E27A5B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5F19736B166DE36A00E27A5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F19736D166DE36A00E27A5B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5F197371166DE36A00E27A5B /* CoolBank-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoolBank-Info.plist"; sourceTree = "<group>"; };
+		5F197373166DE36A00E27A5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5F197375166DE36A00E27A5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F197377166DE36A00E27A5B /* CoolBank-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoolBank-Prefix.pch"; sourceTree = "<group>"; };
+		5F197378166DE36A00E27A5B /* CBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBAppDelegate.h; sourceTree = "<group>"; };
+		5F197379166DE36A00E27A5B /* CBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F197362166DE36A00E27A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F19736A166DE36A00E27A5B /* UIKit.framework in Frameworks */,
+				5F19736C166DE36A00E27A5B /* Foundation.framework in Frameworks */,
+				5F19736E166DE36A00E27A5B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F19735A166DE36900E27A5B = {
+			isa = PBXGroup;
+			children = (
+				5F19736F166DE36A00E27A5B /* CoolBank */,
+				5F197368166DE36A00E27A5B /* Frameworks */,
+				5F197366166DE36A00E27A5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F197366166DE36A00E27A5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F197365166DE36A00E27A5B /* CoolBank.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F197368166DE36A00E27A5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F197369166DE36A00E27A5B /* UIKit.framework */,
+				5F19736B166DE36A00E27A5B /* Foundation.framework */,
+				5F19736D166DE36A00E27A5B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F19736F166DE36A00E27A5B /* CoolBank */ = {
+			isa = PBXGroup;
+			children = (
+				5F197378166DE36A00E27A5B /* CBAppDelegate.h */,
+				5F197379166DE36A00E27A5B /* CBAppDelegate.m */,
+				5F197370166DE36A00E27A5B /* Supporting Files */,
+			);
+			path = CoolBank;
+			sourceTree = "<group>";
+		};
+		5F197370166DE36A00E27A5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F197371166DE36A00E27A5B /* CoolBank-Info.plist */,
+				5F197372166DE36A00E27A5B /* InfoPlist.strings */,
+				5F197375166DE36A00E27A5B /* main.m */,
+				5F197377166DE36A00E27A5B /* CoolBank-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F197364166DE36A00E27A5B /* CoolBank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F19737D166DE36A00E27A5B /* Build configuration list for PBXNativeTarget "CoolBank" */;
+			buildPhases = (
+				5F197361166DE36A00E27A5B /* Sources */,
+				5F197362166DE36A00E27A5B /* Frameworks */,
+				5F197363166DE36A00E27A5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolBank;
+			productName = CoolBank;
+			productReference = 5F197365166DE36A00E27A5B /* CoolBank.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F19735C166DE36900E27A5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CB;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 5F19735F166DE36900E27A5B /* Build configuration list for PBXProject "CoolBank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5F19735A166DE36900E27A5B;
+			productRefGroup = 5F197366166DE36A00E27A5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F197364166DE36A00E27A5B /* CoolBank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F197363166DE36A00E27A5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F197374166DE36A00E27A5B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F197361166DE36A00E27A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F197376166DE36A00E27A5B /* main.m in Sources */,
+				5F19737A166DE36A00E27A5B /* CBAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F197372166DE36A00E27A5B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F197373166DE36A00E27A5B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F19737B166DE36A00E27A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F19737C166DE36A00E27A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F19737E166DE36A00E27A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoolBank/CoolBank-Prefix.pch";
+				INFOPLIST_FILE = "CoolBank/CoolBank-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5F19737F166DE36A00E27A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoolBank/CoolBank-Prefix.pch";
+				INFOPLIST_FILE = "CoolBank/CoolBank-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F19735F166DE36900E27A5B /* Build configuration list for PBXProject "CoolBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F19737B166DE36A00E27A5B /* Debug */,
+				5F19737C166DE36A00E27A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F19737D166DE36A00E27A5B /* Build configuration list for PBXNativeTarget "CoolBank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F19737E166DE36A00E27A5B /* Debug */,
+				5F19737F166DE36A00E27A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F19735C166DE36900E27A5B /* Project object */;
+}
